@@ -16,13 +16,13 @@ export function PricingPage() {
       {/* Header */}
       <div className="text-center max-w-2xl mx-auto">
         <span className="text-xs font-semibold uppercase tracking-wider text-muted">
-          Transparent Infrastructure Pricing
+          Domain-Specific Foundational AI Model Pricing
         </span>
         <h1 className="mt-3 text-3xl sm:text-4xl font-semibold tracking-tight">
           Scale from Prototype to Millions of Check-ins
         </h1>
         <p className="mt-4 text-base text-muted leading-relaxed">
-          Pay for the intelligence events you ingest. Free forever in developer sandbox mode with synthetic data.
+          Pay for the domain-specific foundational AI model events you ingest. Free forever in developer sandbox mode with synthetic data.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ export function PricingPage() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-emerald-500 font-bold">&#10003;</span>
-                <span>Full access to in-browser IDE</span>
+                <span>Zero-PII edge validation</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-emerald-500 font-bold">&#10003;</span>
@@ -62,10 +62,10 @@ export function PricingPage() {
             </ul>
           </div>
           <Link
-            href="/ide"
+            href="/contact"
             className="mt-8 block w-full rounded-full border border-line py-2.5 text-center text-xs font-semibold hover:bg-line/60 transition-colors"
           >
-            Start in Sandbox
+            Request Sandbox Access
           </Link>
         </div>
 

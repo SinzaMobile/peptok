@@ -6,27 +6,26 @@ export function PlatformPage() {
       {/* Page Header */}
       <div className="max-w-3xl">
         <span className="text-xs font-semibold uppercase tracking-wider text-muted">
-          Platform Architecture &amp; Capabilities
+          Domain-Specific Foundational AI Model &bull; Platform Architecture
         </span>
         <h1 className="mt-3 text-3xl sm:text-4xl font-semibold tracking-tight">
-          The Intelligence Infrastructure for Digital Wellbeing
+          The Domain-Specific Foundational AI Model for Digital Wellbeing
         </h1>
         <p className="mt-4 text-lg text-muted leading-relaxed">
-          PAMHA decouples adaptive machine intelligence and clinical safety guardrails from front-end user experience,
-          enabling digital health providers to offer hyper-personalized interventions while keeping full brand ownership.
+          PAMHA is a domain-specific foundational AI model that decouples purpose-built mental health intelligence and clinical safety guardrails from front-end user experience, enabling digital health providers to offer hyper-personalized interventions while keeping full brand ownership.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
-            href="/ide"
+            href="/safety"
             className="rounded-full bg-ink text-bg px-5 py-2.5 text-sm font-medium hover:opacity-90 transition-opacity"
           >
-            Test Capabilities in IDE &rarr;
+            Safety &amp; Privacy &rarr;
           </Link>
           <Link
-            href="/docs"
+            href="/pricing"
             className="rounded-full border border-line px-5 py-2.5 text-sm font-medium hover:bg-line/60 transition-colors"
           >
-            API Documentation
+            View Pricing
           </Link>
         </div>
       </div>
@@ -37,9 +36,9 @@ export function PlatformPage() {
           <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 px-3 py-1 text-xs font-mono font-medium mb-4">
             High-Throughput / Edge
           </div>
-          <h2 className="text-xl font-semibold tracking-tight">Data-Plane (Ingestion &amp; Inference)</h2>
+          <h2 className="text-xl font-semibold tracking-tight">Data-Plane (Foundational Model Inference)</h2>
           <p className="mt-3 text-sm text-muted leading-relaxed">
-            The data-plane handles live event streaming and sub-50ms inference. It ingests check-ins, passive wearable telemetry, and sentiment signals while enforcing strict pseudonymous identity validation.
+            The data-plane serves our domain-specific foundational AI model with live event streaming and sub-50ms inference. It ingests check-ins, passive wearable telemetry, and sentiment signals while enforcing strict pseudonymous identity validation.
           </p>
           <ul className="mt-6 space-y-3 text-sm text-muted">
             <li className="flex items-start gap-2.5">
@@ -85,7 +84,7 @@ export function PlatformPage() {
       {/* Capabilities Deep-Dive Grid */}
       <div className="mt-16 border-t border-line pt-12">
         <h2 className="text-2xl font-semibold tracking-tight mb-8">
-          Core Adaptive Engine Capabilities
+          Domain-Specific Foundational AI Model Capabilities
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-3xl border border-line p-6 bg-bg">
@@ -132,7 +131,7 @@ export function PlatformPage() {
             <div className="text-2xl mb-3">&#128187;</div>
             <h3 className="text-base font-semibold">Developer-First Tooling</h3>
             <p className="mt-2 text-xs text-muted leading-relaxed">
-              Native SDKs in TypeScript, Python, and Go, plus an in-browser sandbox IDE with mock payloads and instantaneous feedback loops.
+              Native SDKs in TypeScript, Python, and Go with deterministic schemas and structured JSON responses.
             </p>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "@/src/lib/router";
 
 const SAMPLES = {
   cURL: `curl https://sandbox.api.pamha.example/v1/events \\
@@ -105,12 +104,6 @@ export function CodePanel() {
               </>
             )}
           </button>
-          <Link
-            href="/ide"
-            className="flex items-center gap-1 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 px-2.5 py-1 text-xs font-medium transition-colors"
-          >
-            <span>Run in IDE &rarr;</span>
-          </Link>
         </div>
       </div>
 

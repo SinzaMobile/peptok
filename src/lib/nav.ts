@@ -25,11 +25,15 @@ export const NAV: NavGroup[] = [
   {
     label: "Developers",
     items: [
-      { label: "Interactive IDE", href: "/ide", status: "live", badge: "Live Sandbox" },
-      { label: "Documentation", href: "/docs", status: "live" },
-      { label: "Quickstart", href: "/docs/quickstart", status: "live" },
-      { label: "Try Peptok AI Demo", href: "/demo", status: "live" },
-      { label: "Developer Console", href: "/console", status: "live" },
+      { label: "Try Peptok AI Demo", href: "/demo", status: "soon" },
+      { label: "Developer Console", href: "/console", status: "soon" },
+    ],
+  },
+  {
+    label: "Support Us",
+    items: [
+      { label: "Investors", href: "/investors", status: "live" },
+      { label: "Partner with us", href: "/partner", status: "live" },
     ],
   },
   {
@@ -37,11 +41,8 @@ export const NAV: NavGroup[] = [
     items: [
       { label: "About", href: "/about", status: "live" },
       { label: "Contact", href: "/contact", status: "live" },
-      { label: "Sign in", href: "/console/signin", status: "live" },
     ],
   },
 ];
 
-export const SIGN_IN: NavLink = { label: "Console", href: "/console", status: "live" };
-
-export const allLinks = (): NavLink[] => [...NAV.flatMap((g) => g.items), SIGN_IN];
+export const allLinks = (): NavLink[] => NAV.flatMap((g) => g.items);

@@ -76,10 +76,10 @@ export function DemoPage() {
         </div>
 
         <Link
-          href="/ide"
+          href="/platform"
           className="rounded-full border border-line px-4 py-2 text-xs font-semibold hover:bg-line/60 transition-colors self-start md:self-auto"
         >
-          View Ingestion in IDE &rarr;
+          Platform Capabilities &rarr;
         </Link>
       </div>
 

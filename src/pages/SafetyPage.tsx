@@ -32,8 +32,8 @@ export function SafetyPage() {
           Safety by Design, Privacy by Default
         </h1>
         <p className="mt-4 text-lg text-muted leading-relaxed">
-          PAMHA was engineered from day one to operate with strict zero-PII principles and deterministic clinical safety guardrails.
-          We provide the intelligence layer; your platform provides the user relationship.
+          PAMHA is a domain-specific foundational AI model engineered from day one to operate with strict zero-PII principles and deterministic clinical safety guardrails.
+          We provide the foundational model layer; your platform provides the user relationship.
         </p>
       </div>
 
@@ -65,7 +65,7 @@ export function SafetyPage() {
           </div>
           <h2 className="text-lg font-semibold tracking-tight">Clinician Handoff Protocols</h2>
           <p className="mt-2 text-sm text-muted leading-relaxed">
-            PAMHA is non-clinical software infrastructure. When safety thresholds are crossed, automated webhooks notify platform operators and licensed emergency triage services for immediate human intervention.
+            PAMHA is a domain-specific foundational AI model delivered as non-clinical software infrastructure. When safety thresholds are crossed, automated webhooks notify platform operators and licensed emergency triage services for immediate human intervention.
           </p>
         </div>
       </div>
@@ -183,7 +183,7 @@ export function SafetyPage() {
 
       {/* Disclaimer */}
       <div className="mt-14 rounded-2xl border border-line/60 bg-line/20 p-6 text-xs text-muted leading-relaxed">
-        <strong>Important Clinical Notice:</strong> PAMHA is purely software and algorithmic infrastructure for platforms. It is not a medical device, does not diagnose, treat, or cure any psychological or psychiatric condition, and does not provide emergency medical services. Platform operators are responsible for ensuring appropriate clinical staffing and emergency handoff protocols.
+        <strong>Important Clinical Notice:</strong> PAMHA is a domain-specific foundational AI model delivered purely as software and algorithmic infrastructure for platforms. It is not a medical device, does not diagnose, treat, or cure any psychological or psychiatric condition, and does not provide emergency medical services. Platform operators are responsible for ensuring appropriate clinical staffing and emergency handoff protocols.
       </div>
     </div>
   );

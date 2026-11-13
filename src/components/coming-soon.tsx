@@ -21,12 +21,6 @@ export function ComingSoon({ title, note }: { title: string; note?: string }) {
           >
             Back to home
           </Link>
-          <Link
-            href="/ide"
-            className="inline-block rounded-full bg-ink text-bg px-5 py-2.5 text-sm font-medium hover:opacity-90 transition-opacity"
-          >
-            Open Interactive IDE
-          </Link>
         </div>
       </div>
     </div>

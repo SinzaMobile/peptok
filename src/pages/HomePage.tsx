@@ -7,14 +7,13 @@ export function HomePage() {
       {/* Hero Section */}
       <section className="pb-12 pt-14 sm:pt-20">
         <p className="text-sm font-medium text-muted tracking-wide">
-          Adaptive mental health intelligence
+          Domain-Specific Foundational AI Model
         </p>
         <h1 className="mt-5 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl leading-[1.1]">
-          The intelligence layer for mental health.
+          The domain-specific foundational AI model for mental health.
         </h1>
         <p className="mt-5 max-w-prose text-lg leading-8 text-muted">
-          Powering a new generation of digital wellbeing platforms with adaptive intelligence,
-          personalized recommendations and meaningful insights.
+          PAMHA is a purpose-built, domain-specific foundational AI model powering a new generation of digital wellbeing platforms with adaptive intelligence, personalized recommendations, and meaningful insights.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">
@@ -23,18 +22,6 @@ export function HomePage() {
             className="rounded-full bg-ink px-6 py-3 font-medium text-bg hover:opacity-90 transition-opacity"
           >
             Explore the platform &rarr;
-          </Link>
-          <Link
-            href="/ide"
-            className="rounded-full bg-emerald-600 dark:bg-emerald-500 text-white px-6 py-3 font-medium hover:bg-emerald-700 dark:hover:bg-emerald-600 transition-colors shadow-sm"
-          >
-            Launch Interactive IDE
-          </Link>
-          <Link
-            href="/docs/quickstart"
-            className="rounded-full border border-line px-6 py-3 font-medium hover:bg-line/60 transition-colors"
-          >
-            Read documentation
           </Link>
         </div>
       </section>
@@ -45,9 +32,7 @@ export function HomePage() {
       {/* Narrative Section */}
       <section className="mt-20 max-w-prose">
         <p className="text-lg leading-8 text-ink">
-          PAMHA is the adaptive AI infrastructure powering the next generation of digital mental health platforms. It delivers personalized
-          recommendations, wellbeing tracking, analytics and context-aware intelligence through APIs that integrate into existing applications.
-          Platforms deliver the experience under their own brand.
+          PAMHA is a domain-specific foundational AI model—not a general-purpose LLM wrapper—powering the next generation of digital mental health platforms. Purpose-built for longitudinal wellbeing, it delivers personalized recommendations, wellbeing tracking, analytics, and context-aware intelligence through APIs that integrate into existing applications while platforms retain full brand ownership.
         </p>
       </section>
 
@@ -56,10 +41,10 @@ export function HomePage() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
           <div>
             <span className="text-xs font-semibold uppercase tracking-wider text-muted">
-              Built for Platforms &amp; Health Systems
+              Domain-Specific Foundational AI Model
             </span>
             <h2 className="mt-2 text-2xl sm:text-3xl font-semibold tracking-tight">
-              Adaptive Intelligence at Scale
+              Foundational Intelligence at Scale
             </h2>
           </div>
           <Link href="/platform" className="text-sm font-medium text-ink hover:underline">
@@ -74,9 +59,9 @@ export function HomePage() {
                 <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
               </svg>
             </div>
-            <h3 className="text-lg font-semibold tracking-tight">Adaptive Inference Engine</h3>
+            <h3 className="text-lg font-semibold tracking-tight">Foundational Inference Engine</h3>
             <p className="mt-2 text-sm text-muted leading-relaxed">
-              Dynamically evaluates subjective check-ins, sleep architecture, and biometric signals to generate continuous trajectory scores without static rules.
+              Our domain-specific foundational AI model evaluates subjective check-ins, sleep architecture, and biometric signals to generate continuous trajectory scores without static rules.
             </p>
           </div>
 
@@ -104,30 +89,6 @@ export function HomePage() {
               Enforces cryptographically pseudonymous <code className="text-xs font-mono bg-line/80 px-1 py-0.5 rounded">sub_*</code> identifiers. All direct identity data is blocked at edge gateways.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* IDE Callout Banner */}
-      <section className="mt-20 rounded-3xl border border-line bg-line/20 p-8 sm:p-12 text-center">
-        <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          Test the Data-Plane in Your Browser
-        </h2>
-        <p className="mt-3 max-w-prose mx-auto text-base text-muted">
-          Experiment with event ingestion, inspect raw payload responses, test edge safety flags, and view real-time latency benchmarks in our interactive sandbox.
-        </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <Link
-            href="/ide"
-            className="rounded-full bg-ink text-bg px-6 py-3 font-medium hover:opacity-90 transition-opacity"
-          >
-            Open Interactive IDE &rarr;
-          </Link>
-          <Link
-            href="/demo"
-            className="rounded-full border border-line px-6 py-3 font-medium hover:bg-line/60 transition-colors"
-          >
-            Try Peptok AI Demo
-          </Link>
         </div>
       </section>
     </div>

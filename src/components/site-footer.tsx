@@ -4,8 +4,8 @@ import { ThemeToggle } from "./theme-toggle";
 
 export function SiteFooter() {
   return (
-    <footer className="mx-auto mt-24 max-w-page px-6 pb-12">
-      <div className="grid gap-8 border-t border-line pt-10 sm:grid-cols-4">
+    <footer className="mx-auto mt-24 w-full max-w-page px-6 pb-12">
+      <div className="grid gap-8 border-t border-line pt-10 sm:grid-cols-2 lg:grid-cols-5">
         <div className="space-y-3">
           <div className="flex items-center gap-2">
             <span className="grid h-7 w-7 place-items-center rounded-lg bg-ink text-bg">
@@ -23,7 +23,7 @@ export function SiteFooter() {
             <span className="font-semibold tracking-tight">PAMHA</span>
           </div>
           <p className="text-xs text-muted leading-relaxed">
-            The adaptive AI infrastructure layer powering the next generation of digital mental health platforms.
+            The domain-specific foundational AI model powering the next generation of digital mental health platforms.
           </p>
           <div className="pt-2">
             <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-mono bg-line/60 text-muted">
@@ -59,13 +59,13 @@ export function SiteFooter() {
 
       <div className="mt-12 pt-6 border-t border-line/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <p className="max-w-prose text-xs text-muted leading-relaxed">
-          PAMHA is software infrastructure for platforms. It is not a clinical service, does not provide medical advice,
+          PAMHA is a domain-specific foundational AI model delivered as software infrastructure for platforms. It is not a clinical service, does not provide medical advice,
           and is not an emergency service. If someone is in immediate danger, contact local emergency services.
         </p>
         <div className="flex items-center gap-3">
           <ThemeToggle />
           <div className="text-xs text-muted whitespace-nowrap">
-            &copy; {new Date().getFullYear()} PAMHA Platform. All rights reserved.
+            &copy; {new Date().getFullYear()} Peptok Technologies Limited. All rights reserved.
           </div>
         </div>
       </div>
