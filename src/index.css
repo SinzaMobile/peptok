@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --bg: 252 252 252;
+  --ink: 17 17 17;
+  --muted: 102 102 102;
+  --line: 236 236 236;
+  --panel: 8 8 8;
+  --panel-ink: 235 235 235;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: 10 10 10;
+  --ink: 237 237 237;
+  --muted: 160 160 160;
+  --line: 38 38 38;
+  --panel: 22 22 22;
+  --panel-ink: 235 235 235;
+  color-scheme: dark;
+}
+
+@theme {
+  --color-bg: rgb(var(--bg));
+  --color-ink: rgb(var(--ink));
+  --color-muted: rgb(var(--muted));
+  --color-line: rgb(var(--line));
+  --color-panel: rgb(var(--panel));
+  --color-panel-ink: rgb(var(--panel-ink));
+  --max-width-page: 72rem;
+  --max-width-prose: 40rem;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--ink));
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid rgb(var(--ink));
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

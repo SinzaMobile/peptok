@@ -1,0 +1,6 @@
+{
+  "name": "PAMHA Developer Platform & IDE",
+  "description": "The adaptive intelligence layer for digital mental health platforms. Documentation, developer console, and interactive API IDE & sandbox.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
